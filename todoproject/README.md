@@ -35,9 +35,10 @@ Before you begin, ensure you have the following installed:
 - **Python** (version 3.7 or higher) - [Download Python](https://www.python.org/downloads/)
 - **pip** (Python package installer) - [Installing pip](https://pip.pypa.io/en/stable/installation/)
 - **virtualenv** (Optional but recommended for project isolation) - Install via pip:
+
   ```bash
   pip install virtualenv
- ```
+  ```
 
  ## Installation
 
@@ -89,9 +90,9 @@ Follow these steps to set up the project locally:
 
 To run the server, use the following command:
 
-```bash
+  ```bash
 python manage.py runserver
-```
+  ```
 
 Visit http://127.0.0.1:8000/api/todos/ in your browser or use a tool like Postman to interact with the API.
 

@@ -265,7 +265,7 @@ Visit http://127.0.0.1:8000/api/todos/ in your browser or use a tool like Postma
   HTTP/1.1 204 No Content
   ```
 
-## Authentication
+## Authentication (Optional) Beta
 
 The API uses token-based authentication. You can obtain a token by sending a `POST` request to `/api-token-auth/` with your username and password.
 

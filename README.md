@@ -149,7 +149,7 @@ Visit http://127.0.0.1:8000/api/todos/ in your browser or use a tool like Postma
     "title": "New Task",
     "description": "Description of the new task",
     "completed": false,
-    "uid": "Required User Field"
+    "user_id": "Required User Field"
   }
   ```
 

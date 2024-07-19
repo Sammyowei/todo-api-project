@@ -1,0 +1,22 @@
+version: '3'
+services:
+  api:
+    container_name: 'todo-api'
+    image: '${DJANGO_TUTORIAL_API_IMAGE}'
+    command: gunicorn todoproject.wsgi:application --bind 0.0.0.0:8000
+    volumes:
+      - static_volume:/todoproject/staticfiles/
+      - media_volume:./todoproject/mediafiles/
+    expose:
+      - 80
+  nginx:
+    container_name: 'nginx'
+    image: '${DJANGO_TUTORIAL_NGINX_IMAGE}'
+    ports:
+      - 80:80
+    volumes:
+      - static_volume:/todoproject/staticfiles/
+      - media_volume:/todoproject/mediafiles/
+  volumes:
+    static_volume:
+    media_volume:

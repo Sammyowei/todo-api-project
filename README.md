@@ -118,13 +118,15 @@ Visit http://127.0.0.1:8000/api/todos/ in your browser or use a tool like Postma
       "id": 1,
       "title": "Buy groceries",
       "description": "Milk, Bread, Eggs",
-      "completed": false
+      "completed": false,
+      "uid": "User-Id"
     },
     {
       "id": 2,
       "title": "Complete Django tutorial",
       "description": "Work through the Django REST Framework documentation",
-      "completed": true
+      "completed": true,
+      "uid": "User-Id"
     }
   ]
   ```
@@ -146,7 +148,8 @@ Visit http://127.0.0.1:8000/api/todos/ in your browser or use a tool like Postma
   {
     "title": "New Task",
     "description": "Description of the new task",
-    "completed": false
+    "completed": false,
+    "uid": "Required User Field"
   }
   ```
 

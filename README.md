@@ -119,14 +119,14 @@ Visit http://127.0.0.1:8000/api/todos/ in your browser or use a tool like Postma
       "title": "Buy groceries",
       "description": "Milk, Bread, Eggs",
       "completed": false,
-      "uid": "User-Id"
+      "user_id": "User-Id"
     },
     {
       "id": 2,
       "title": "Complete Django tutorial",
       "description": "Work through the Django REST Framework documentation",
       "completed": true,
-      "uid": "User-Id"
+      "user_id": "User-Id"
     }
   ]
   ```
